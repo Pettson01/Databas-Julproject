@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Slumpad present</title>
+    <link rel="stylesheet" href="/static/css/design2.css">
+
+  </head>
+  <body>
+
+<h1> SLUMPAD PRESENT </h1>
+
+<div id="resultBox">
+
+<!-- Med hjälp av en ejs fil kan man lätta lägga in variabler från andra dokument och det är det som görs nedan.-->
+
+    <h3 id="titleName"> [Present: <%= presentNamn %> ] </h3>
+
+    <div id="imgBox">
+      <img id="pictureImg" src="<%= linktTillBild %>">
+    </div>
+
+
+  <a id="linkToPicture" class="button" href="<%= linktTillPresent %>" > Länk till present </a>
+
+
+  </div>
+
+  <!-- Laddar om sidan som, detta skapar en ny get requst med adressen ./skumpadPresent. Denna requsten kommer göra så att en Funktion
+       i "PresentFunktioner.js"-->
+  <a class="button" id="button1" href="./slumpadPresent"> Slumpa present </a>
+
+  <br>
+
+  <a class="button" href="./"> Startsida </a>
+
+
+  </body>
+</html>

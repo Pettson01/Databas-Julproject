@@ -1,0 +1,49 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+#imgBox{
+  border: black solid 2px;
+  border-radius: 10px;
+  width: 30vw;
+  height: 50vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#pictureImg{
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.button{
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+  width: 115px;
+  height: 20px;
+  background-color: buttonface;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  border: black solid 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button:hover{
+  background-color: grey;
+}
+
+#button1{
+  margin-top: 20px;
+}
+
+#linkToPicture{
+  margin-top: 20px;
+}
